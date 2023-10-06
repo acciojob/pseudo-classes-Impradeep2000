@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+* {
+  background-color: rgb(135, 206, 235);
+}
+
+.article p:first-child {
+  color: white;
+  background-color: black;
+}
+
+.article p:nth-child(2) {
+  color: black;
+}
+
+.article p:last-child {
+  color: red;
+}
+
+
+
+.unordered-list li {
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+}
+
+.unordered-list li:nth-child(odd) {
+  background-color: white;
+}
+.unordered-list li:nth-child(even) {
+  background-color: gray;
+}
+
+.unordered-list li:first-child,
+.unordered-list li:last-child {
+  font-size: 22px;
+}
+
+.unordered-list li:nth-last-child(3) {
+  background-color: pink;
+}
